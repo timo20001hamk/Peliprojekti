@@ -1,0 +1,56 @@
+{
+  "dialogs": [
+    {
+      "dialogId": 1,
+      "characterId": "pl",
+      "answers": [],
+      "text": "Well, there are several local attractions worth seeing in this area. The fields out back provide great hiking opportunities or a chance for some fresh air away from the road. And if you have any interest in history, there's an old castle just down the road that was once home to a powerful family.",
+      "nextId": 2
+    },
+    {
+      "dialogId": 2,
+      "characterId": "npc",
+      "answers": [
+        {
+          "nextId": 3,
+          "text": "Hyvä tyyppi oot",
+          "requirements": [
+            {
+              "property": "influence",
+              "value": 3,
+              "failId": 5
+            }
+          ],
+          "trigger": "gainXP"
+        },
+        {
+          "nextId": 4,
+          "text": "Mene pois"
+        }
+      ],
+      "text": "Mitä mieltä olet minusta?",
+      "nextId": false
+    },
+    {
+      "dialogId": 3,
+      "characterId": "npc",
+      "answers": [],
+      "text": "Ihan jees",
+      "nextId": "end"
+    },
+    {
+      "dialogId": 4,
+      "characterId": "npc",
+      "answers": [],
+      "text": "Yhyy",
+      "nextId": "end"
+    },
+    {
+      "dialogId": 5,
+      "characterId": "npc",
+      "answers": [],
+      "text": "En usko sinua",
+      "nextId": "end"
+    }
+  ]
+}
