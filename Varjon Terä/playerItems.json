@@ -1,0 +1,44 @@
+{
+  "plItems": [
+    {
+      "itemId": 1,
+      "amount": 2
+    },
+    {
+      "itemId": 2,
+      "amount": 1
+    },
+    {
+      "itemId": 2,
+      "amount": 1
+    },
+    {
+      "itemId": 2,
+      "amount": 1
+    },
+    {
+      "itemId": 2,
+      "amount": 1
+    },
+    {
+      "itemId": 2,
+      "amount": 1
+    },
+    {
+      "itemId": 2,
+      "amount": 1
+    },
+    {
+      "itemId": 2,
+      "amount": 1
+    },
+    {
+      "itemId": 2,
+      "amount": 1
+    },
+    {
+      "itemId": 2,
+      "amount": 1
+    }
+  ]
+}

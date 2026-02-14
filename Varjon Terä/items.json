@@ -1,0 +1,58 @@
+{
+  "items": [
+    {
+      "itemId": 1,
+      "name": "Health Potion",
+      "sprite": "spr_health_potion1",
+      "category": "Consumables",
+      "subcategory": "Potion",
+      "description": "Gives health",
+      "stats": {
+        "amountType": "Percentage",
+        "health": 25
+      },
+      "price": 200
+    },
+    {
+      "itemId": 2,
+      "name": "Rapier",
+      "sprite": "spr_rapier1",
+      "category": "Weapon",
+      "subcategory": "Thrust",
+      "description": "Stings a lot",
+      "stats": {
+        "amountType": "Points",
+        "attack": 50,
+        "type": "melee",
+        "element": null
+      },
+      "price": 800
+    },
+    {
+      "itemId": 3,
+      "name": "Mana Potion",
+      "sprite": "mana_potion1",
+      "category": "Consumables",
+      "subcategory": "Potion",
+      "description": "Gives mana",
+      "stats": {
+        "amountType": "Percentage",
+        "Mana": 25
+      },
+      "price": 400
+    },
+    {
+      "itemId": 4,
+      "name": "Light Bow",
+      "sprite": "light_bow1",
+      "category": "Weapon",
+      "subcategory": "Piercing",
+      "description": "Bowing bow",
+      "stats": {
+        "amountType": "Points",
+        "attack": 15
+      },
+      "price": 400
+    }
+  ]
+}
